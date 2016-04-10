@@ -8,14 +8,6 @@ body {
   font-family: Ubuntu;
 }
 
-/* brand logo holder*/
-.navbar-brand {
-  position: absolute;
-  opacity: 0;
-  transform: scale(2,2);
-  transition: all 0.4s;
-}
-
 /*brand logo image */
 .navbar-brand>img {
   width: 135px;
@@ -24,32 +16,19 @@ body {
 
 /*centering the navbar logo*/
 .navbar-brand, .navbar-brand>img {
+  position: absolute;
   padding-top: 3px;
   left: 0;
   right: 0;
   margin: 0 auto;
 }
 
-/*Makes brand logo visible in nav bar.
-  scrolling to certain point*/
-.navbar-brand-afterscroll {
-    opacity: 1;
-    transform: scale(1,1);
-}
-
 /*main body of navigation bar*/
 .navbar {
+  background: rgb(12, 13, 13);
   padding-top: 5px;
-  background-color: transparent;
-  transition: background-color 0.4s;
   border: 0;
   height: 60px;
-}
-
-/*Style of navbar to be called
-  after scrolling to certain point*/
-.navbar-afterscroll {
-  background: rgb(12, 13, 13);
 }
 
 /*Style of collapsed navbar for movile view*/

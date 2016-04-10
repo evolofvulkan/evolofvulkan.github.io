@@ -1,3 +1,25 @@
+/* brand logo holder*/
+.navbar-brand {
+  opacity: 0;
+  transform: scale(2,2);
+  transition: all 0.4s;
+}
+/*Makes brand logo visible in nav bar.
+  after scrolling to certain point*/
+.navbar-brand-afterscroll {
+    opacity: 1;
+    transform: scale(1,1);
+}
+.navbar {
+  background-color: transparent;
+  transition: background-color 0.4s;
+}
+/*Style of navbar to be called
+  after scrolling to certain point*/
+.navbar-afterscroll {
+  background: rgb(12, 13, 13);
+}
+
 /*initial landing part*/
 .first-row {
   height: 100%;
