@@ -1,7 +1,6 @@
 //scroll down to first content clicking bouncing arrow
 $('.bottom-btn').click(function() {
- $('html, body').animate({scrollTop: $("#first-content").offset().top - 80}, 500
-);
+ $('html, body').animate({scrollTop: $("#first-content").offset().top - 80}, 500);
 });
 
 //change navigation bar and brand logo with scroll
