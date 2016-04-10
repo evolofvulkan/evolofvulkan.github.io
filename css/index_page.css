@@ -1,4 +1,4 @@
-/* brand logo holder*/
+/*overriding brand logo holder for index page*/
 .navbar-brand {
   opacity: 0;
   transform: scale(2,2);
@@ -10,6 +10,7 @@
     opacity: 1;
     transform: scale(1,1);
 }
+/*overrriding nav bar for index page*/
 .navbar {
   background-color: transparent;
   transition: background-color 0.4s;
