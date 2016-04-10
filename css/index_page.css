@@ -35,13 +35,14 @@
 .landing-grid .row>div>img {
   display: block;
   margin: 25vh auto 0 auto;
-  max-width: 90%;
+  max-width: 100%;
   height: auto;
 }
 .landing-grid .row>div>h3 {
   display: block;
   color: rgb(166, 173, 169);
   text-align: center;
+  font-size: 40px;
 }
 /*anchor tag wrapping the bouncing arrow*/
 .bottom-btn {

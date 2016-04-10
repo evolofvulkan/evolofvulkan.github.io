@@ -5,6 +5,7 @@
 }
 body {
   color: black;
+  font-family: Ubuntu;
 }
 
 /*overriding bootstrap classes*/
