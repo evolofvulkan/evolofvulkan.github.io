@@ -1,24 +1,8 @@
-/*overriding brand logo holder for index page*/
-.navbar-brand {
-  opacity: 0;
-  transform: scale(2,2);
-  transition: all 0.4s;
-}
-/*Makes brand logo visible in nav bar.
-  after scrolling to certain point*/
-.navbar-brand-afterscroll {
-    opacity: 1;
-    transform: scale(1,1);
-}
+
 /*overrriding nav bar for index page*/
 .navbar {
   background-color: transparent;
   transition: background-color 0.4s;
-}
-/*Style of navbar to be called
-  after scrolling to certain point*/
-.navbar-afterscroll {
-  background: rgb(12, 13, 13);
 }
 
 /*initial landing part*/
@@ -156,24 +140,16 @@
   min-height: 400px;
   background: rgba(0, 0, 0, 0.8);
   padding-top: 60px;
- 
+  padding-bottom: 50px
 }
-
 /*image for features*/
-.row-2 .open_sourceImg{
+.row-2 img {
   display: block;
   position: relative;;
   margin: 0 auto;
-  width: 490px;
+  width: 400px;
+  height: 275px;
 }
-.row-2 .cross_platformImg{
-  display: block;
-  position: relative;;
-  margin: 0 auto;
-  width: 300px;
-  height: 300px;
-}
-
 /*heading for features*/
 .content-header-2 {
   padding: 20px 10px 15px 10px;
@@ -181,4 +157,3 @@
   text-align: center;
   font-size: 40px;
 }
-
