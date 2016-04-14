@@ -14,12 +14,12 @@ body {
   width: 135px;
   height: 40px;
 }
-
 /*centering the navbar logo*/
 .navbar-brand {
   position: absolute;
   padding-top: 3px;
   left: 50%;
+  display: block;
 }
 
 /*main body of navigation bar*/
