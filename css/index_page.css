@@ -95,15 +95,15 @@
 
 /* main content*/
 .content-wrapper {
-  background: url("../images/dark_bg.jpg") fixed no-repeat;
+  /*background: url("../images/dark_bg.jpg") fixed no-repeat;*/
   background-size: 100% 100%;
   padding: 0;
   width: 100%;
+  height: 2000px; /* just to see parallax effect clearly. Remove this later*/
   overflow: hidden;
 }
 
 /*what is Vulkan? part*/
-
 /*overriding bootstrap row for 'what is vulkan' section*/
 .row-1 {
   /*background-color: rgba(242, 38, 19);*/
