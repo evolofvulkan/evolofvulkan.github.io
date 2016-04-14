@@ -46,9 +46,6 @@
     transform: translateY(-15px);
   }
 }
-body {
-  background: black;
-}
 
 .arrow {
   position: fixed;

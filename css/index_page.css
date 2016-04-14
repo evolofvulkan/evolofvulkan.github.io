@@ -30,8 +30,8 @@
 /*background image for the landing part*/
 .first {
   position: absolute;
-  background-image: url("../images/red_black_abstract.jpg");
-  background-size: 100% 100%;
+  background-image: url("../images/bg-2.jpg");
+  /*background-size: 100% 100%;*/
   background-repeat: no-repeat;
   height: 100vh;
   width: 100%;
@@ -95,7 +95,6 @@
 
 /* main content*/
 .content-wrapper {
-  background-size: 100% 100%;
   padding: 0;
   width: 100%;
   height: 2000px; /* just to see parallax effect clearly. Remove this later*/
@@ -116,7 +115,8 @@
 /*heading for 'what is vulkan' section*/
 .content-header {
   padding: 40px 10px 10px 10px;
-  color: white;
+  color: #ecf0f1;
+  font-weight: bold;
   text-align: center;
   font-size: 50px;
 }
@@ -124,7 +124,7 @@
 .content-data {
   padding: 0 10px 10px 10px;
   text-align: center;
-  color: rgb(223, 219, 219);
+  color: #ecf0f1;
   font-size: 21px;
 }
 /*custom button to navigate to intro page*/
@@ -158,9 +158,9 @@
 /*features part*/
 .row-2 {
   min-height: 400px;
-  background: rgba(0, 0, 0, 0.8);
+  /*background: rgba(0, 0, 0, 0.8);*/
   padding-top: 60px;
-
+  background: #ecf0f1;
 }
 
 /*image for features*/
@@ -181,7 +181,10 @@
 /*heading for features*/
 .content-header-2 {
   padding: 20px 10px 15px 10px;
-  color: white;
+  color: #34495e;
   text-align: center;
   font-size: 40px;
+}
+.content-data-2 {
+  color: #34495e;
 }
