@@ -10,12 +10,13 @@ body {
 
 /*brand logo image */
 .navbar-brand>img {
+  position: absolute;
   width: 135px;
   height: 40px;
 }
 
 /*centering the navbar logo*/
-.navbar-brand, .navbar-brand>img {
+.navbar-brand {
   position: absolute;
   padding-top: 3px;
   left: 50%;
