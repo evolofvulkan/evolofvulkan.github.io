@@ -42,3 +42,26 @@ body {
 .navbar-default ul.navbar-nav>li>a {
   color: white;
 }
+
+/*start of the latest development page*/
+.latest {
+  margin-top: 120px; 
+  text-align: justify;
+}
+.latest h2 { 
+  color: maroon;
+  padding-bottom: 30px;
+  margin-bottom: 0
+}
+.latest h2 hr{
+  border:1px solid maroon;
+
+}
+.latest .panel {
+  border-radius: 0;
+  background: #ccc;
+}
+.latest .panel .panel-heading{
+  background: #333;
+  color: #eee
+}
