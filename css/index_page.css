@@ -31,14 +31,14 @@
 .first {
   position: absolute;
   background-image: url("../images/naya.jpg");
-  background-size: 100% auto;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
   width: 100%;
   top: 0;
   z-index: -2;
 }
-/*container for big logo and bouncing button*/
+/*containe1r for big logo and bouncing button*/
 .landing-grid{
   /*border: 1px solid blue;*/
   z-index: 2;
