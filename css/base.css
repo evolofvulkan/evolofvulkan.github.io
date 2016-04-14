@@ -10,15 +10,18 @@ body {
 
 /*brand logo image */
 .navbar-brand>img {
+  margin: 0;
   position: absolute;
-  width: 135px;
-  height: 40px;
+  width: inherit;
+  height: inherit;
 }
 /*centering the navbar logo*/
 .navbar-brand {
+  width: 140px;
+  height: 40px;
   position: absolute;
-  padding-top: 3px;
-  left: 50%;
+  padding: 0;
+  left: calc(50% - 70px);
   display: block;
 }
 
