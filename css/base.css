@@ -43,12 +43,15 @@ body {
   color: white;
 }
 
-
 /*start of the latest development page*/
 .latest {
-  margin-top: 150px; 
+  margin-top: 130px; 
   text-align: justify;
 }
+.releases{
+  margin-bottom: 140px;
+}
+.latest .news { margin-bottom: 80px }
 .latest h2 { 
   color: maroon;
   padding-bottom: 30px;
@@ -81,15 +84,14 @@ body {
 
 /*Starting of the footer of the page*/
 footer{
-  margin-top: 80px;
   height: 100px;
   width: 100%;
   background: black;
-  padding: 0
+  box-sizing: border-box;
+  padding: 55px 0 0 0 
 }
 footer h5{
   color: #ddd;
   text-align: center;
-  margin-top: 65px;
   text-shadow: 0px 1px 2px #ccc 
 }
