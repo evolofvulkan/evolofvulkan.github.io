@@ -5,7 +5,7 @@
 }
 body {
   color: black;
-  font-family: Ubuntu,Helvetica;
+  font-family: Ubuntu;
 }
 
 /*brand logo image */
@@ -18,9 +18,7 @@ body {
 .navbar-brand, .navbar-brand>img {
   position: absolute;
   padding-top: 3px;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
+  left: 50%;
 }
 
 /*main body of navigation bar*/
@@ -32,7 +30,7 @@ body {
 }
 
 /*Style of collapsed navbar for movile view*/
-.navbar-collapse-aftertoggle{
+.navbar-collapse{
   background-color: black;
 }
 

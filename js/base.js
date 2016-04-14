@@ -14,9 +14,3 @@ $(window).scroll(function() {
     $('.navbar-brand').removeClass('navbar-brand-afterscroll');
   }
 });
-
-//change navbar when nav button clicked
-$('.navbar-toggle').click(function(){
-  console.log("A");
-  $('.navbar, .navbar-collapse').addClass('navbar-collapse-aftertoggle');
-});
