@@ -174,13 +174,21 @@
   display: block;
   position: relative;;
   margin: 0 auto;
-  width: 490px;
+  width: 480px;
 }
 .row-2 .cross_platformImg{
   display: block;
   position: relative;;
   margin: 0 auto;
-  width: 300px;
+  width: 320px;
+  height: 300px;
+}
+.row-2 .cross_platformImg2{
+  display: block;
+  position: relative;;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  width: 370px;
   height: 300px;
 }
 
