@@ -35,7 +35,7 @@ body {
 
 /*Style of collapsed navbar for movile view*/
 .navbar-collapse{
-  background-color: black;
+  background-color: rgb(12, 13, 13);
 }
 
 /*navigation links in the nav bar*/
