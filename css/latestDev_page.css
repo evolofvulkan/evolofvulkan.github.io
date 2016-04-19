@@ -2,36 +2,69 @@
   margin-top: 130px;
   text-align: justify;
 }
+
 .releases{
   margin-bottom: 140px;
 }
-.latest .news { margin-bottom: 80px }
+
+.latest .news { 
+  margin-bottom: 80px 
+}
+
 .latest h2 {
   color: maroon;
   padding-bottom: 30px;
   margin-bottom: 0;
   font-weight: bold;
-  text-shadow: 0px 0px 2px #111;
+  text-shadow: 0px 0px 1px #111;
 }
+
 .latest h2 hr{
   border: 1px solid maroon;
   box-shadow: 0px 1px 1px #000;
 }
+
 .latest .panel {
   border-radius: 4px;
   background: #ccc;
   border: 0
 }
+
 .latest .panel .panel-heading{
   background: #333;
   color: #ddd;
   box-shadow: 0px 4px 3px 0 black;
 
 }
+
 .latest .panel .panel-heading a{
   text-decoration: none;
 }
+
 .latest .panel .panel-heading a:hover{
   text-decoration: none;
   color: #fff
 }
+
+.latest button { 
+  border-radius: 2px; 
+  display: block; 
+  margin-top: 40px; 
+  background: #333; 
+  outline: none; 
+  float: right 
+}
+
+.latest button:hover { 
+  background: #222;  
+}
+
+.latest button a { 
+  color: #ddd; 
+  outline: none 
+}
+
+.latest button:hover a { 
+  color: #fff
+ }
+ 
