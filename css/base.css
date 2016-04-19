@@ -7,6 +7,9 @@ body {
   color: black;
   font-family: Ubuntu;
 }
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+}
 
 /*brand logo image */
 .navbar-brand>img {
@@ -35,51 +38,12 @@ body {
 
 /*Style of collapsed navbar for movile view*/
 .navbar-collapse{
-  background-color: black;
+  background-color: rgb(12, 13, 13);
 }
 
 /*navigation links in the nav bar*/
 .navbar-default ul.navbar-nav>li>a {
   color: white;
-}
-
-/*start of the latest development page*/
-.latest {
-  margin-top: 130px; 
-  text-align: justify;
-}
-.releases{
-  margin-bottom: 140px;
-}
-.latest .news { margin-bottom: 80px }
-.latest h2 { 
-  color: maroon;
-  padding-bottom: 30px;
-  margin-bottom: 0;
-  font-weight: bold;
-  text-shadow: 0px 2px 1px #000; 
-}
-.latest h2 hr{
-  border: 1px solid maroon;
-  box-shadow: 0px 1px 1px #000; 
-}
-.latest .panel {
-  border-radius: 4px;
-  background: #ccc;
-  border: 0
-}
-.latest .panel .panel-heading{
-  background: #333;
-  color: #ddd;
-  box-shadow: 0px 4px 3px 0 black;
-
-}
-.latest .panel .panel-heading a{
-  text-decoration: none;
-}
-.latest .panel .panel-heading a:hover{ 
-  text-decoration: none;
-  color: #fff
 }
 
 /*Starting of the footer of the page*/
@@ -88,10 +52,10 @@ footer{
   width: 100%;
   background: black;
   box-sizing: border-box;
-  padding: 55px 0 0 0 
+  padding: 55px 0 0 0
 }
 footer h5{
   color: #ddd;
   text-align: center;
-  text-shadow: 0px 1px 2px #ccc 
+  text-shadow: 0px 1px 2px #ccc
 }

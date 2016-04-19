@@ -78,6 +78,7 @@
 /*anchor tag wrapping the bouncing arrow*/
 .bottom-btn {
   /*border: 1px solid white;*/
+  cursor: pointer;
   transform: scale(1.5,1.5);
   display: block;
   position: absolute;
@@ -97,7 +98,6 @@
 .content-wrapper {
   padding: 0;
   width: 100%;
-  height: 2000px; /* just to see parallax effect clearly. Remove this later*/
   overflow: hidden;
 }
 
@@ -106,7 +106,7 @@
 .row-1 {
   /*background-color: rgba(242, 38, 19);*/
   background: transparent;
-  min-height: 400px;
+  /*min-height: 400px;*/
   padding-bottom: 50px;
   -webkit-box-shadow: -2px 4px 37px 2px rgba(0,0,0,0.75);
   -moz-box-shadow: -2px 4px 37px 2px rgba(0,0,0,0.75);
@@ -116,7 +116,7 @@
 .content-header {
   padding: 40px 10px 10px 10px;
   color: #ecf0f1;
-  font-weight: bold;
+  /*font-weight: bold;*/
   text-align: center;
   font-size: 50px;
 }
@@ -147,9 +147,9 @@
   box-shadow: -2px 4px 37px 2px rgba(0,0,0,0.75);
 }
 .custom-button:hover, .custom-button:focus {
-  background-color: black;
+  background-color: #c0392b;
   color: white;
-  border-color: black;
+  border-color: white;
 }
 .custom-button:active {
   opacity: 0.7;
@@ -164,17 +164,31 @@
 }
 
 /*image for features*/
-.row-2 .open_sourceImg{
+.row-2 .androidImg {
   display: block;
   position: relative;;
   margin: 0 auto;
   width: 490px;
 }
+.row-2 .open_sourceImg{
+  display: block;
+  position: relative;;
+  margin: 0 auto;
+  width: 480px;
+}
 .row-2 .cross_platformImg{
   display: block;
   position: relative;;
   margin: 0 auto;
-  width: 300px;
+  width: 320px;
+  height: 300px;
+}
+.row-2 .cross_platformImg2{
+  display: block;
+  position: relative;;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  width: 370px;
   height: 300px;
 }
 
@@ -187,4 +201,20 @@
 }
 .content-data-2 {
   color: #34495e;
+}
+
+/*highlighter*/
+.highlighter {
+    text-shadow: 0 0 20px #000;
+    color: #A41E22;
+    font-weight: bolder;
+}
+
+/*Khronos Group*/
+.people-pos {
+  color: rgb(94, 94, 94);
+}
+.people-img {
+  height: 200px;
+  width: 200px;
 }

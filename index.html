@@ -61,7 +61,7 @@
         <div class="col-md-6 col-md-offset-3">
           <img src="images/vulkan_logo.png"> <!-- big logo -->
           <h3>The Next Generation Graphics And Compute API</h3>
-          <a href="#" class="bottom-btn"> <!-- bouncing button -->
+          <a class="bottom-btn"> <!-- bouncing button -->
             <div class="arrow bounce"></div>
           </a>
         </div>
@@ -69,11 +69,12 @@
     </div>
 
     <!-- main content -->
-    <div class="container-fluid content-wrapper parallax-window" data-parallax="scroll" data-image-src="images/bg_3.jpg" data-speed="0.3" >
+    <div class="container-fluid content-wrapper parallax-window" data-parallax="scroll" data-image-src="images/bg_3.jpg" data-speed="0.3" data-bleed="50">
+
       <!-- What is Vulkan?-->
       <div class="row row-1">
         <div class="col-md-6 col-md-offset-3">
-          <h1 id="first-content" class="content-header">WHAT IS VULKAN API?</h1>
+          <h1 id="first-content" class="content-header">WHAT IS <span class="highlighter">VULKAN API?</span></h1>
           <p class="content-data">
             Vulkan is a new generation graphics and compute API that provides high-efficiency, cross-platform access to modern GPUs used in a wide variety of devices from PCs and consoles to mobile phones and embedded platforms.
           </p>
@@ -107,11 +108,68 @@
             <img src="images/cross_platform.png" class="cross_platformImg" />
         </div>
       </div>
-    </div>
+
+      <!-- Adopted by android part-->
+      <div class="row row-2" >
+        <div class="col-md-6 col-md-offset-1" >
+          <h1 class="content-header-2">Adopted By Android</h1>
+          <p class="content-data content-data-2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque hendrerit viverra sagittis. Nunc quis nibh blandit, tincidunt mauris in, imperdiet risus.
+          </p>
+        </div>
+
+        <div class="col-md-4" >
+            <img src="images/android/android.jpg" class="androidImg" />
+        </div>
+      </div>
+
+      <!--Supported by many companies part-->
+      <div class="row row-2">
+        <div class="col-md-6 col-md-push-4 col-md-offset-1">
+          <h1 class="content-header-2">Supported By Many Companies</h1>
+          <p class="content-data content-data-2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque hendrerit viverra sagittis. Nunc quis nibh blandit, tincidunt mauris in, imperdiet risus.
+          </p>
+        </div>
+
+        <div class="col-md-4 col-md-pull-6">
+            <img src="images/SupportedCompanies/Scompany.jpg" class="cross_platformImg2" />
+        </div>
+      </div>
+
+      <!-- Want To Learn Evolution part?-->
+      <div class="row row-1" style="background-color: rgba(0, 0, 0, 0.28);">
+        <div class="col-md-6 col-md-offset-3">
+          <h1 class="content-header">Evolution Of <span class="highlighter">Vulkan API</span></h1>
+          <p class="content-data">
+            Take a tour with us and explore history and stages of development on Vulkan API with the interactive timeline
+          </p>
+          <a href="pages/history.html" class="custom-button">Explore</a>
+        </div>
+      </div>
+
+      <!-- Khronos Group part-->
+      <div class="row row-2" style="padding: 10px 0;">
+        <div class="col-md-10 col-md-offset-1">
+
+          <h1 class="content-header-2" style="padding: 10px 0;">Khronos Group</h1>
+
+          <!--Neil Trevett-->
+          <div class="col-md-3" style="text-align:center;">
+            <img src="images/neil_trevett.jpg" class="img-circle img-people">
+            <h4>Neil Trevett<h4>
+            <span class="people-pos">President</span>
+          </div>
+
+        </div>
+      </div><!-- END of khronos Group Part-->
+
+    </div><!-- end of main content-->
+
 
 
     <footer class="col-md-12">
-        <h5>&copy; evolofvulkan. All Right Reserve.</h5>
+        <h5>&copy; evolofvulkan. All Right Reserved.</h5>
     </footer>
 
     <script src="js/base.js"></script>
