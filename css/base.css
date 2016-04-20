@@ -52,7 +52,8 @@ footer{
   width: 100%;
   background: black;
   box-sizing: border-box;
-  padding: 55px 0 0 0
+  padding: 55px 0 0 0;
+  position: fixed;
 }
 footer h5{
   color: #ddd;
