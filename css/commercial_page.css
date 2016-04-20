@@ -44,7 +44,7 @@ hr {
   font-size: 20px;
 }
 .mantle-img {
-  background: url('../images/stardock-2016-ashes-logo.png'), linear-gradient(rgb(0,0,0),rgb(0,0,0));
+  background: url('../images/singularity.png'), linear-gradient(rgb(0,0,0),rgb(0,0,0));
   margin-bottom: 20px;
   background-repeat: no-repeat;
   height: 400px;
@@ -52,7 +52,7 @@ hr {
   background-size: cover;
 }
 .samsung-img{
-  background: url('../images/s7.jpg'), linear-gradient(rgb(0,0,0),rgb(0,0,0));
+  background: url('../images/samsungGaming.jpg'), linear-gradient(rgb(0,0,0),rgb(0,0,0));
   margin-bottom: 20px;
   background-repeat: no-repeat;
   height: 400px;
