@@ -56,38 +56,6 @@ hr {
   text-align: center;
   font-size: 20px;
 }
-/* singularity image css */
-.ashes-img-container {
-  margin: 0 auto;
-  margin-bottom: 15px;
-}
-.ashes-img-container img {
-  margin: 0 auto;
-}
-/* samsung image css */
-.samsung-img-container {
-  margin: 0 auto;
-  margin-bottom: 15px;
-}
-.samsung-img-container img {
-  margin: 0 auto;
-}
-/* talos image css */
-.talos-img-container {
-  margin: 0 auto;
-  margin-bottom: 15px;
-}
-.talos-img-container img {
-  margin: 0 auto;
-}
-/* WNC image css */
-.WNC-img-container {
-  margin: 0 auto;
-  margin-bottom: 15px;
-}
-.WNC-img-container img {
-  margin: 0 auto;
-}
 .row {
   padding-bottom: 30px;
 }

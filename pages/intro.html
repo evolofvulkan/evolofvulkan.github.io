@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Vulkan API</title>
@@ -10,118 +10,131 @@
     <link rel="stylesheet" href="../css/intro_page.css">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
+
+
     <!-- <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"> -->
     <script src="../js/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
-  </head>
+</head>
 
-  <!-- nav section-->
-  <nav class="navbar navbar-default navbar-fixed-top">
+<body>
+<!-- nav section-->
+<nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
+        <!-- Brand and toggle get grouped for better mobile display -->
 
-      <div class="navbar-header" >
-        <a class="navbar-brand" href="../index.html" >
-          <img src="../images/vulkan_logo.png">
-        </a>
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div><!-- end of navbar-header -->
-      <!-- Collect the nav links for toggling -->
-      <div class="collapse navbar-collapse navbar-right" id="navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li><a href="intro.html">Introduction</a></li>
-          <li><a href="history.html">History</a></li>
-          <li><a href="latestDevelopment.html">Latest Development</a></li>
-          <li><a href="">FAQ</a></li>
-          <li><a href="commercial.html">Commercial</a></li>
-        </ul>
-      </div><!-- end of navbar-collapse -->
-    </div><!-- end of container-fluid -->
-  </nav>
-  <!-- end of nav section -->
+        <div class="navbar-header">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../images/vulkan_logo.png">
+            </a>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <!-- end of navbar-header -->
+        <!-- Collect the nav links for toggling -->
+        <div class="collapse navbar-collapse navbar-right" id="navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="intro.html">Introduction</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="latestDevelopment.html">Latest Development</a></li>
+                <li><a href="">FAQ</a></li>
+                <li><a href="commercial.html">Commercial</a></li>
+            </ul>
+        </div>
+        <!-- end of navbar-collapse -->
+    </div>
+    <!-- end of container-fluid -->
+</nav>
+<!-- end of nav section -->
 
-  <!-- cover heading with photo-->
-  <div class="cover-head">
+<!-- cover heading with photo-->
+<div class="cover-head">
     <h1>MORE ON VULKAN API</h1>
-  </div>
+</div>
 
-  <!--main contents-->
-  <main class="container-fluid">
+<!--main contents-->
+<main class="container-fluid">
 
-      <!-- introduction -->
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-          <h1 class="intro-head">Introduction</h1>
+  <!-- introduction -->
+  <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h1 class="intro-head">Introduction</h1>
           <p class="intro-content">
-            Vulkan is a new low-level API for 3D graphics and GPU-based computations, which was brought to us by Khronos Group. Its low-level abstraction allows a developer to work more closely to the hardware giving wider control on handling hardware, and hence achieving the increased performance of a graphics application if programmed well.
+              Vulkan is a new low-level API for 3D graphics and GPU-based computations, which was brought to us by Khronos Group. Its low-level abstraction allows a developer to work more closely to the hardware giving wider control on handling hardware, and hence achieving the increased performance of a graphics application if programmed well.
           </p>
           <br/>
           <p class="intro-content">
-            Vukan is often seen as a competitor to Microsoft's new DirectX 12. Although they both have a different approach internally as APIs, they are both targeted towards the sumilar goal&mdash;massive framerate increase in games, drastic decrease in CPU workload (low CPU overhead), and better use of CPU's multiple cores.
+              Vukan is often seen as a competitor to Microsoft's new DirectX 12. Although they both have a different approach internally as APIs, they are both targeted towards the sumilar goal&mdash;massive framerate increase in games, drastic decrease in CPU workload (low CPU overhead), and better use of CPU's multiple cores.
           </p>
-        </div>
       </div>
+    </div>
 
-      <hr/>
+    <hr/>
 
-      <!-- Built on AMD's MANTLE  -->
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2">
+    <!-- Built on AMD's MANTLE  -->
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
           <h1 class="intro-head">Built Upon AMD's Mantle API</h1>
           <div class="mantle-img-container">
-            <img class="img-responsive" src="../images/mantle_amd1.jpg"/>
+              <img class="img-responsive" src="../images/mantle_amd1.jpg" />
           </div>
           <p class="intro-content">
-            AMD's Mantle has been used as a foundation for Vulkan API. Mantle is also a low-level API targeted at 3D graphics espically video games. The goals of AMD for Mantle were to achieve higher framerates, reduced rendering latency, reducend GPU power consumption, and better handling of multi-core CPUs. However, with its idea of proprietary trademark and support for only AMD graphic cards, the game support list was pretty small and it was bound to fall.
+              AMD's Mantle has been used as a foundation for Vulkan API. Mantle is also a low-level API targeted at 3D graphics espically video games. The goals of AMD for Mantle were to achieve higher framerates, reduced rendering latency, reducend GPU power consumption, and better handling of multi-core CPUs. However, with its idea of proprietary trademark and support for only AMD graphic cards, the game support list was pretty small and it was bound to fall.
           </p>
           <br />
           <p class="intro-content">
-            That's where Vulkan API came into the scene. Before Mantle fell completely, it was miraculuously resurrected as a Vulkan. Vulkan has assimilated the 'best and brightest' parts of Mantle while still being a non-proprietary tool supporting many Operating Systems, and both Nvidia and AMD graphic cards.
+              That's where Vulkan API came into the scene. Before Mantle fell completely, it was miraculuously resurrected as a Vulkan. Vulkan has assimilated the 'best and brightest' parts of Mantle while still being a non-proprietary tool supporting many Operating Systems, and both Nvidia and AMD graphic cards.
           </p>
-        </div>
       </div>
+    </div>
 
-      <hr/>
+    <hr/>
 
-      <!-- Successor to OpenGL  -->
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-          <h1 class="intro-head">Successor To OpenGL</h1>
-          <div class="container-fluid"></div>
-          <p class="intro-content">
+    <!-- Successor to OpenGL  -->
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h1 class="intro-head">Successor To OpenGL</h1>
+        <p class="intro-content">
             OpenGL is also a graphics redering API initially developed by Silicon Graphics Inc. (SGI) and now managed by Khronos Group. OpenGL has been constantly evolving for over two decades and has numerous improvements in that time. However, only doings patchups and improvements on same base will not always be enough. Sometimes, a full rework has to be done to beget something more game changing.
-          </p>
-          <br />
-          <p class="intro-content">
+        </p>
+        <br />
+        <p class="intro-content">
             Yes, that's how Vulkan API came into being, and seen as a successor to OpenGL. Also, it was initially referred to as "next generation OpenGL initiative".
-          </p>
-          <br />
-          <p class="intro-content">
-            Yes, that's how Vulkan API came into being, and seen as a successor to OpenGL. Also, it was initially referred to as "next generation OpenGL initiative".
-          </p>
-        </div>
+        </p>
       </div>
+    </div>
 
-      <hr/>
+    <hr/>
 
-      <!-- Successor to OpenGL  -->
-      <div class="row">
+    <!-- Successor to OpenGL  -->
+    <div class="row">
         <div class="col-md-8 col-md-offset-2">
           <h1 class="intro-head">Used In 3D Graphics Applications Like Games></h1>
           <div class="container-fluid"></div>
           <p class="intro-content">Lorem ipsum adolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
-      </div>
+    </div>
+
+</main>
 
 
-  </main>
+    <footer class="col-md-12">
 
-  <footer class="col-md-12">
-      <h5>&copy; evolofvulkan. All Right Reserved.</h5>
-  </footer>
+        <div class="follow col-md-8 col-md-offset-1">
+            <h4>Find Us On</h4>
+            <a href=""><i class="fa fa-facebook-official fa-3x" title="facebook" alt="facebook"></i></a>
+            <a href=""><i class="fa fa-github fa-3x" title="github" alt="twitter"></i></a>
+        </div>
+        
+        <div class="copyright col-md-3">
+            <h5>&copy; evolofvulkan. All Right Reserved.</h5>  
+        </div>
 
+    </footer>
+
+</body>
 </html>

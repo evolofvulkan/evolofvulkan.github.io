@@ -52,11 +52,30 @@ footer{
   width: 100%;
   background: black;
   box-sizing: border-box;
-  padding: 55px 0 0 0;
   position: fixed;
 }
 footer h5{
   color: #ddd;
-  text-align: center;
-  text-shadow: 0px 1px 2px #ccc
+  text-shadow: 0px 1px 2px #ccc;
+}
+
+footer .follow h4 {
+ font-weight: bold;
+  color: #ddd;
+  text-shadow: 0px 1px 1px #ccc;
+}
+
+footer .copyright { 
+  margin-top: 60px
+}
+
+footer .follow { 
+  margin-top: 10px  
+}
+footer .follow a {
+  color: white;
+}
+footer .follow a i {
+  margin-right: 30px;
+  margin-left: 0px
 }
