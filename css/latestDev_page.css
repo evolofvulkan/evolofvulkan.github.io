@@ -31,7 +31,7 @@
 }
 
 .latest .panel .panel-heading{
-  background: #333;
+  background: #111;
   color: #ddd;
   box-shadow: 0px 4px 3px 0 black;
 
@@ -50,7 +50,7 @@
   border-radius: 2px; 
   display: block; 
   margin-top: 40px; 
-  background: #333; 
+  background: #111; 
   outline: none; 
   float: right 
 }
