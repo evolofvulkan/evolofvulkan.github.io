@@ -1,24 +1,30 @@
 * {
-  margin: 0;
-  padding: 0;
-  /*border: 1px solid red;*/
+    margin: 0;
+    padding: 0;
+    /*border: 1px solid red;*/
 }
 body {
-  color: black;
-  font-family: Ubuntu;
+    color: black;
+    font-family: Ubuntu;
 }
-a, a:hover, a:focus, a:active {
-  text-decoration: none;
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
 }
 
 /*brand logo image */
+
 .navbar-brand>img {
-  margin: 0;
-  position: absolute;
-  width: inherit;
-  height: inherit;
+    margin: 0;
+    position: absolute;
+    width: inherit;
+    height: inherit;
 }
+
 /*centering the navbar logo*/
+
 .navbar-brand {
   width: 140px;
   height: 40px;
@@ -26,36 +32,63 @@ a, a:hover, a:focus, a:active {
   padding: 0;
   left: calc(50% - 70px);
   display: block;
+    width: 140px;
+    height: 40px;
+    position: absolute;
+    padding: 0;
+    left: calc(50% - 70px);
+    display: block;
 }
 
 /*main body of navigation bar*/
+
 .navbar {
-  background: rgb(12, 13, 13);
-  padding-top: 5px;
-  border: 0;
-  height: 60px;
+    background: rgb(12, 13, 13);
+    padding-top: 5px;
+    border: 0;
+    height: 60px;
 }
 
 /*Style of collapsed navbar for movile view*/
-.navbar-collapse{
-  background-color: rgb(12, 13, 13);
+
+.navbar-collapse {
+    background-color: rgb(12, 13, 13);
 }
 
 /*navigation links in the nav bar*/
+
 .navbar-default ul.navbar-nav>li>a {
-  color: white;
+    color: white;
 }
 
 /*Starting of the footer of the page*/
-footer{
-  height: 100px;
-  width: 100%;
-  background: black;
-  box-sizing: border-box;
-  padding: 55px 0 0 0
+
+footer {
+    height: 100px;
+    width: 100%;
+    background: black;
+    box-sizing: border-box;
+    position: fixed;
 }
-footer h5{
-  color: #ddd;
-  text-align: center;
-  text-shadow: 0px 1px 2px #ccc
+footer h5 {
+    color: #ddd;
+    text-shadow: 0px 1px 2px #ccc;
+}
+footer .follow h4 {
+    font-weight: bold;
+    color: #ddd;
+    text-shadow: 0px 1px 1px #ccc;
+}
+footer .copyright {
+    margin-top: 60px
+}
+footer .follow {
+    margin-top: 10px
+}
+footer .follow a {
+    color: white;
+}
+footer .follow a i {
+    margin-right: 30px;
+    margin-left: 0px
 }
