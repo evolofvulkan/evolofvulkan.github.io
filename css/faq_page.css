@@ -1,5 +1,5 @@
 .faq {
-	height: 500px
+	height: 650px
 }
 
 .faq > .container-fluid{
@@ -26,12 +26,4 @@
   border-radius: 4px;
   background: #ccc;
   border: 0
-}
-
-.faq .panel .panel-body a{
-	font-weight: bold
-}
-
-.faq .note p {
-	text-align: center;
 }
