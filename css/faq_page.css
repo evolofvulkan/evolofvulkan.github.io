@@ -1,0 +1,37 @@
+.faq {
+	height: 500px
+}
+
+.faq > .container-fluid{
+	margin-top: 130px
+}
+
+.faq h3 {
+  font-size: 28px;
+  color: maroon;
+  padding-bottom: 30px;
+  margin-bottom: 0;
+  font-weight: bold;
+  text-shadow: 2px 0px 0.5px #222;
+}
+
+.faq .panel .panel-heading{
+  background: #111;
+  color: #ddd;
+  box-shadow: 0px 4px 3px 0 black;
+  cursor: pointer;
+}
+
+.faq .panel {
+  border-radius: 4px;
+  background: #ccc;
+  border: 0
+}
+
+.faq .panel .panel-body a{
+	font-weight: bold
+}
+
+.faq .note p {
+	text-align: center;
+}
