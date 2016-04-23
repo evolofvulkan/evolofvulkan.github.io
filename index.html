@@ -1,55 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Vulkan API</title>
-      <link rel="stylesheet" href="css/bootstrap.min.css">
-      <link rel="stylesheet" href="css/bouncing_arrow.css">
-      <link rel="stylesheet" href="css/base.css">
-      <link rel="stylesheet" href="css/index_page.css">
-      <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel='stylesheet' type='text/css'>
-      <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bouncing_arrow.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index_page.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 
-      <!-- <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"> -->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-      <!--parallax -->
-      <script src="js/parallax.min.js"></script>
+    <!-- <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"> -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--parallax -->
+    <script src="js/parallax.min.js"></script>
 
 
 
-  </head>
+</head>
 
-  <body>
+<body>
 
     <!-- nav section-->
     <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
 
-        <div class="navbar-header" >
-          <a class="navbar-brand" href="#" >
-            <img src="images/vulkan_logo.png">
-          </a>
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div><!-- end of navbar-header -->
-        <!-- Collect the nav links for toggling -->
-        <div class="collapse navbar-collapse navbar-right" id="navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li><a href="pages/intro.html">Introduction</a></li>
-            <li><a href="pages/history.html">History</a></li>
-            <li><a href="pages/latestDevelopment.html">Latest Development</a></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="pages/commercial.html">Commercial</a></li>
-          </ul>
-        </div><!-- end of navbar-collapse -->
-      </div><!-- end of container-fluid -->
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    <img src="images/vulkan_logo.png">
+                </a>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- end of navbar-header -->
+            <!-- Collect the nav links for toggling -->
+            <div class="collapse navbar-collapse navbar-right" id="navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="pages/intro.html">Introduction</a></li>
+                    <li><a href="pages/history.html">History</a></li>
+                    <li><a href="pages/latestDevelopment.html">Latest Development</a></li>
+                    <li><a href="pages/faq.html">FAQ</a></li>
+                    <li><a href="pages/commercial.html">Commercial</a></li>
+                </ul>
+            </div>
+            <!-- end of navbar-collapse -->
+        </div>
+        <!-- end of container-fluid -->
     </nav>
     <!-- end of nav section -->
 
@@ -59,107 +62,109 @@
     <div class="first"></div>
     <!-- landing grid for logo and down button -->
     <div class="container landing-grid">
-      <div class="row first-row">
-        <div class="col-md-6 col-md-offset-3">
-          <img src="images/vulkan_logo.png"> <!-- big logo -->
-          <h3>The Next Generation Graphics And Compute API</h3>
-          <a class="bottom-btn"> <!-- bouncing button -->
-            <div class="arrow bounce"></div>
-          </a>
+        <div class="row first-row">
+            <div class="col-md-6 col-md-offset-3">
+                <img src="images/vulkan_logo.png">
+                <!-- big logo -->
+                <h3>The Next Generation Graphics And Compute API</h3>
+                <a class="bottom-btn">
+                    <!-- bouncing button -->
+                    <div class="arrow bounce"></div>
+                </a>
+            </div>
         </div>
-      </div>
     </div>
 
     <!-- main content -->
     <div class="container-fluid content-wrapper parallax-window" data-parallax="scroll" data-image-src="images/bg_3.jpg" data-speed="0.3" data-bleed="50">
 
-      <!-- What is Vulkan?-->
-      <div class="row row-1">
-        <div class="col-md-6 col-md-offset-3">
-          <h1 id="first-content" class="content-header">WHAT IS <span class="highlighter">VULKAN API?</span></h1>
-          <p class="content-data">
-            Vulkan is a new generation graphics and compute API that provides high-efficiency, cross-platform access to modern GPUs used in a wide variety of devices from PCs and consoles to mobile phones and embedded platforms.
-          </p>
-          <button href="pages/intro.html" class="custom-button">Read Full Info</button>
-        </div>
-      </div>
-
-      <!-- open source part-->
-      <div class="row row-2" >
-        <div class="col-md-6 col-md-offset-1">
-          <h1 class="content-header-2">Open Source</h1>
-          <p class="content-data content-data-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque hendrerit viverra sagittis. Nunc quis nibh blandit, tincidunt mauris in, imperdiet risus.
-          </p>
-        </div>
-        <div class="col-md-4">
-          <img src="images/open_source.png" class="open_sourceImg" />
-        </div>
-      </div>
-
-      <!-- cross platform part-->
-      <div class="row row-2">
-        <div class="col-md-6 col-md-push-4 col-md-offset-1">
-          <h1 class="content-header-2">Cross Platform</h1>
-          <p class="content-data content-data-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque hendrerit viverra sagittis. Nunc quis nibh blandit, tincidunt mauris in, imperdiet risus.
-          </p>
+        <!-- What is Vulkan?-->
+        <div class="row row-1">
+            <div class="col-md-6 col-md-offset-3">
+                <h1 id="first-content" class="content-header">WHAT IS <span class="highlighter">VULKAN API?</span></h1>
+                <p class="content-data">
+                    Vulkan is a new generation graphics and compute API that provides high-efficiency, cross-platform access to modern GPUs used in a wide variety of devices from PCs and consoles to mobile phones and embedded platforms.
+                </p>
+                <button href="pages/intro.html" class="custom-button">Read Full Info</button>
+            </div>
         </div>
 
-        <div class="col-md-4 col-md-pull-6">
-            <img src="images/cross_platform.png" class="cross_platformImg" />
-        </div>
-      </div>
-
-      <!-- Adopted by android part-->
-      <div class="row row-2" >
-        <div class="col-md-6 col-md-offset-1" >
-          <h1 class="content-header-2">Adopted By Android</h1>
-          <p class="content-data content-data-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque hendrerit viverra sagittis. Nunc quis nibh blandit, tincidunt mauris in, imperdiet risus.
-          </p>
-        </div>
-
-        <div class="col-md-4" >
-            <img src="images/android/android.jpg" class="androidImg" />
-        </div>
-      </div>
-
-      <!--Supported by many companies part-->
-      <div class="row row-2">
-        <div class="col-md-6 col-md-push-4 col-md-offset-1">
-          <h1 class="content-header-2">Supported By Many Companies</h1>
-          <p class="content-data content-data-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque hendrerit viverra sagittis. Nunc quis nibh blandit, tincidunt mauris in, imperdiet risus.
-          </p>
+        <!-- open source part-->
+        <div class="row row-2">
+            <div class="col-md-6 col-md-offset-1">
+                <h1 class="content-header-2">Open Source</h1>
+                <p class="content-data content-data-2">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque hendrerit viverra sagittis. Nunc quis nibh blandit, tincidunt mauris in, imperdiet risus.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <img src="images/open_source.png" class="open_sourceImg" />
+            </div>
         </div>
 
-        <div class="col-md-4 col-md-pull-6">
-            <img src="images/SupportedCompanies/Scompany.jpg" class="cross_platformImg2" />
+        <!-- cross platform part-->
+        <div class="row row-2">
+            <div class="col-md-6 col-md-push-4 col-md-offset-1">
+                <h1 class="content-header-2">Cross Platform</h1>
+                <p class="content-data content-data-2">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque hendrerit viverra sagittis. Nunc quis nibh blandit, tincidunt mauris in, imperdiet risus.
+                </p>
+            </div>
+
+            <div class="col-md-4 col-md-pull-6">
+                <img src="images/cross_platform.png" class="cross_platformImg" />
+            </div>
         </div>
-      </div>
 
-      <!-- Want To Learn Evolution part?-->
-      <div class="row row-1" style="background-color: rgba(0, 0, 0, 0.28);">
-        <div class="col-md-6 col-md-offset-3">
-          <h1 class="content-header">Evolution Of <span class="highlighter">Vulkan API</span></h1>
-          <p class="content-data">
-            Take a tour with us and explore history and stages of development on Vulkan API with the interactive timeline
-          </p>
-          <a href="pages/history.html" class="custom-button">Explore</a>
+        <!-- Adopted by android part-->
+        <div class="row row-2">
+            <div class="col-md-6 col-md-offset-1">
+                <h1 class="content-header-2">Adopted By Android</h1>
+                <p class="content-data content-data-2">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque hendrerit viverra sagittis. Nunc quis nibh blandit, tincidunt mauris in, imperdiet risus.
+                </p>
+            </div>
+
+            <div class="col-md-4">
+                <img src="images/android/android.jpg" class="androidImg" />
+            </div>
         </div>
-      </div>
 
-      <!-- Khronos Group part-->
-      <div class="row row-2" style="padding: 10px 0;">
-        <div class="col-md-10 col-md-offset-1">
+        <!--Supported by many companies part-->
+        <div class="row row-2">
+            <div class="col-md-6 col-md-push-4 col-md-offset-1">
+                <h1 class="content-header-2">Supported By Many Companies</h1>
+                <p class="content-data content-data-2">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque hendrerit viverra sagittis. Nunc quis nibh blandit, tincidunt mauris in, imperdiet risus.
+                </p>
+            </div>
 
-          <h1 class="content-header-2" style="padding: 10px 0;">Khronos Group</h1>
+            <div class="col-md-4 col-md-pull-6">
+                <img src="images/SupportedCompanies/Scompany.jpg" class="cross_platformImg2" />
+            </div>
+        </div>
 
-          <!--Neil Trevett-->
-          <div class="col-md-3" style="text-align:center;">
-            <img src="images/neil_trevett.jpg" class="img-circle img-people">
-            <h4>Neil Trevett<h4>
+        <!-- Want To Learn Evolution part?-->
+        <div class="row row-1" style="background-color: rgba(0, 0, 0, 0.28);">
+            <div class="col-md-6 col-md-offset-3">
+                <h1 class="content-header">Evolution Of <span class="highlighter">Vulkan API</span></h1>
+                <p class="content-data">
+                    Take a tour with us and explore history and stages of development on Vulkan API with the interactive timeline
+                </p>
+                <a href="pages/history.html" class="custom-button">Explore</a>
+            </div>
+        </div>
+
+        <!-- Khronos Group part-->
+        <div class="row row-2" style="padding: 10px 0;">
+            <div class="col-md-10 col-md-offset-1">
+
+                <h1 class="content-header-2" style="padding: 10px 0;">Khronos Group</h1>
+
+                <!--Neil Trevett-->
+                <div class="col-md-3" style="text-align:center;">
+                    <img src="images/neil_trevett.jpg" class="img-circle img-people">
+                    <h4>Neil Trevett<h4>
             <span class="people-pos">President</span>
           </div>
 
@@ -174,18 +179,18 @@
 
         <div class="follow col-md-8 col-md-offset-1">
             <h4>Find Us On</h4>
-            <a href=""><i class="fa fa-facebook-official fa-3x" title="facebook" alt="facebook"></i></a>
-            <a href=""><i class="fa fa-github fa-3x" title="github" alt="twitter"></i></a>
-        </div>
+                    <a href=""><i class="fa fa-facebook-official fa-3x" title="facebook" alt="facebook"></i></a>
+                    <a href=""><i class="fa fa-github fa-3x" title="github" alt="twitter"></i></a>
+                </div>
 
-        <div class="copyright col-md-3">
-            <h5>&copy; evolofvulkan. All Right Reserved.</h5>  
-        </div>
+                <div class="copyright col-md-3">
+                    <h5>&copy; evolofvulkan. All Right Reserved.</h5>
+                </div>
 
-    </footer>
+                </footer>
 
-    <script src="js/base.js"></script>
+                <script src="js/base.js"></script>
 
-  </body>
+</body>
 
 </html>
