@@ -17,7 +17,7 @@
 
       <script src="../js/jquery.min.js"></script>
       <script src="../js/bootstrap.min.js"></script>
-	
+
   </head>
 
   <body>
@@ -49,106 +49,79 @@
       </div><!-- end of container-fluid -->
     </nav>
     <!-- end of nav section -->
-	
+
 	<main class="faq">
 	<!-- the main coding begins-->
 	<div class="container-fluid">
 	<div class="faq col-md-8 col-md-offset-2">
-        <h3>FAQ's and Answers</h3>
+        <h3>FAQs and Answers</h3>
 		<div class="panel-group" id="accordion">
-			
+
         <div class="panel panel-default col-md-12">
             <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
                 <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">1. What is API?</a>
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">1. What is Application Programming Interface (API) ?</a>
                 </h4>
             </div>
             <div id="collapseOne" class="panel-collapse collapse in">
                 <div class="panel-body">
-                    <p>An API [Application Programming Interfac] is a list of commands as well as the format of those commands that one program can send to another. It is used so that individual programs can communicate with one another directly and use each other's functions.
-					The API specifies how software components should interact and APIs are used when programming graphical user interface (GUI) components. A good API makes it easier to develop a program by providing all the building blocks. A programmer then puts the blocks together.
-                    </p>
+                    <p>An API is a set of functions and commands used for building application softwares. It makes an easier development of program by providing all the building blocks; a programmer only decides how to use those blocks. API can be found for many things: web-based system, operationg system, database systems, graphics rendering, and such </p>
                 </div>
             </div>
         </div>
-		
+
         <div class="panel panel-default col-md-12">
             <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
                 <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">2. What is the difference between traditional graphics APIs and new low-level APIs?</a>
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">2. What is the difference between traditional high level graphics APIs and new low-level APIs?</a>
                 </h4>
             </div>
             <div id="collapseTwo" class="panel-collapse collapse">
                 <div class="panel-body">
-                    <p>High-level APIs like OpenGL are quite easy to use. The developer declares what they want to do and how they want to do it, and the driver handles the rest. 
-					In low-level APIs the developer is the one who must take care of most things. Because the developer knows what they want to do and what they want to achieve. The driver does not, so with traditional APIs the driver has to make additional effort for the program to work properly. With APIs like Vulkan this additional effort can be avoided.
-					</p>
+                  <p>Traditional high level APIs like OpenGL, DirectX 11 are simple and easy to use and requires less set-up with many pre-defined functions available out of the box. However, this ease comes with a greater price&mdash;higher overhead (less efficient) and loss of flexibility </p>
+
+                  <p>On the other hand, new low level APIs like Vulkan, DirectX 12 are more complex and harder to use (requires more coding), as it allows a developer to access intricate hardware so that the developer can control extensively how the application works. This reduces the overhead and gives more flexibility, and hence increases the performance drastically</p>
                 </div>
             </div>
         </div>
-		
+
         <div class="panel panel-default col-md-12">
             <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
                 <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">3. What is CSS?</a>
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">3. What does low overhead mean?</a>
                 </h4>
             </div>
             <div id="collapseThree" class="panel-collapse collapse">
                 <div class="panel-body">
-                    <p>CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for a given HTML element such as colors, backgrounds, fonts etc.
+                    <p>Overhead is an excess or indirect computation time, bandwidth, memory, or any computer resources that is not useful to the final goal but is required in the process. In the context of Vulkan, it being a CPU low overhead means it performs unnecessary tasks very less so that it does not hold back the GPU, allowing GPU to perform at its fullest.
                     </p>
                 </div>
             </div>
         </div>
-		
+
         <div class="panel panel-default col-md-12">
             <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
                 <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">4. What is CSS?</a>
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">4. What does CPU bottleneck mean?</a>
                 </h4>
             </div>
             <div id="collapseFour" class="panel-collapse collapse">
                 <div class="panel-body">
-                    <p>CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for a given HTML element such as colors, backgrounds, fonts etc.</p>
+                    <p>CPU bottleneck is an inability of CPU to support other hardware compontents in the computer system, usually GPU. In this phenomenom, CPU ought to hold back the GPU to be utilized fully, causing the loss of potential performance. </p>
+
+                    <p>Vulkan is designed to allow programmers to reduce such CPU bottleneck to make sure GPU is not held back and is working optimally.</p>
                 </div>
             </div>
         </div>
-		
-        <div class="panel panel-default col-md-12">
-            <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
-                <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">5. What is CSS?</a>
-                </h4>
-            </div>
-            <div id="collapseFive" class="panel-collapse collapse">
-                <div class="panel-body">
-                    <p>CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for a given HTML element such as colors, backgrounds, fonts etc.
-                    </p>
-                </div>
-            </div>
-        </div>		
-		
-        <div class="panel panel-default col-md-12">
-            <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
-                <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">6. What is CSS?</a>
-                </h4>
-            </div>
-            <div id="collapseSix" class="panel-collapse collapse">
-                <div class="panel-body">
-                    <p>CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for a given HTML element such as colors, backgrounds, fonts etc.
-                    </p>
-                </div>
-            </div>
-        </div>
-		
-		
+
+        
+
     </div>
 	</div>
 	</div>
 	</main>
-	
-		
+
+
     <footer class="col-md-12">
 
         <div class="follow col-md-8 col-md-offset-1">
@@ -157,7 +130,7 @@
             <a href=""><i class="fa fa-github fa-3x" title="github" alt="github"></i></a>
         </div>
         <div class="copyright col-md-3">
-            <h5>&copy; evolofvulkan. All Right Reserved.</h5>  
+            <h5>&copy; evolofvulkan. All Right Reserved.</h5>
         </div>
     </footer>
 </div>

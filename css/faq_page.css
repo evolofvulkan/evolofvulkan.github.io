@@ -27,3 +27,7 @@
   background: #ccc;
   border: 0
 }
+
+.panel-heading:hover a {
+	color: white;
+}
