@@ -120,6 +120,19 @@ footer .reference .modal-footer button {
     color: white;
     border: 0;
 }
+footer .reference .modal-body {
+    padding: 30px 20px
+}
+footer .reference .modal-body p{
+    font-weight: bold;
+}
+footer .reference .modal-body p a {
+    color: #A41E22;
+    font-weight: normal;
+}
+footer .reference .modal-body p a:hover{
+    font-weight: bold;
+}
 footer .reference .modal-footer button:hover {
     opacity: 0.8;
 }
