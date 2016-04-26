@@ -85,7 +85,9 @@
                 <p class="content-data">
                     Vulkan is a new generation graphics and compute API that provides high-efficiency, cross-platform access to modern GPUs used in a wide variety of devices from PCs and consoles to mobile phones and embedded platforms.
                 </p>
-                <a href="pages/intro.html"><button class="custom-button">Read Full Info</button></a>
+                <a href="pages/intro.html">
+                    <button class="custom-button">Read Full Info</button>
+                </a>
             </div>
         </div>
 
@@ -164,51 +166,84 @@
                 <!--Neil Trevett-->
                 <div class="col-md-3" style="text-align:center;">
                     <img src="images/neil_trevett.jpg" class="img-circle people-img">
-                    <h4>Neil Trevett<h4>
+                    <h4>Neil Trevett</h4>
                     <span class="people-pos">President, Khronos Group</span>
                 </div>
 
                 <div class="col-md-3" style="text-align:center;">
                     <img src="images/alon_or_bauch.jpg" class="img-circle people-img">
-                    <h4>Alon Or-bach<h4>
+                    <h4>Alon Or-bach</h4>
                     <span class="people-pos">Chair of Vulkan WSI Technical Sub-Group, Samsung</span>
                 </div>
 
                 <div class="col-md-3" style="text-align:center;">
                     <img src="images/tom_olson.jpg" class="img-circle people-img">
-                    <h4>Tom Olson<h4>
+                    <h4>Tom Olson</h4>
                     <span class="people-pos">OpenGL ES and Vulkan Working Group Chair</span>
                 </div>
 
                 <div class="col-md-3" style="text-align:center;">
                     <img src="images/jeesse_hall.jpg" class="img-circle people-img">
-                    <h4>Jesse Hall<h4>
+                    <h4>Jesse Hall</h4>
                     <span class="people-pos">Google, Android Graphics</span>
                 </div>
 
+            </div>
         </div>
-      </div><!-- END of Key People Part-->
+        <!-- END of Key People Part-->
 
-    </div><!-- end of main content-->
+    </div>
+    <!-- end of main content-->
+
 
 
 
     <footer class="col-md-12">
 
-        <div class="follow col-md-8 col-md-offset-1">
+        <div class="follow col-md-4 col-md-offset-1">
             <h4>Find Us On</h4>
             <a target="_blank" href="https://github.com/evolofvulkan/evolofvulkan.github.io">
-              <i class="fa fa-github fa-3x" title="github" alt="twitter"></i>
+                <i class="fa fa-github fa-3x" title="github" alt="twitter"></i>
             </a>
         </div>
+
+
+        <!-- Start of the reference -->
+        <div class="reference col-md-3">
+            <!-- making a button that opens modal while clicked -->
+            <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#reference">Click to see references</button>
+            <!-- called event while button is clicked and start of the modal -->
+            <div class="modal fade" id="reference" role="dialog">
+                <!-- Start of the dialog box -->
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <!-- modal header -->
+                        <div class="modal-header">
+                            <!-- a cross button which collapse the modal while clicked -->
+                            <button type="button" class="cross close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Reference</h4>
+                        </div>
+                        <!-- modal-body -->
+                        <div class="modal-body">
+                            <p>references is here</p>
+                        </div>
+                        <!-- modal footer -->
+                        <div class="modal-footer">
+                            <!-- a button which collapse the modal while clicked -->
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
         <div class="copyright col-md-3">
             <h5>&copy; evolofvulkan. All Right Reserved.</h5>
         </div>
-
     </footer>
 
-        <script src="js/base.js"></script>
+    <script src="js/base.js"></script>
 
 </body>
 

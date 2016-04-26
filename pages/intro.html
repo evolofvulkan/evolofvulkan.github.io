@@ -19,132 +19,164 @@
 </head>
 
 <body>
-<!-- nav section-->
-<nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
+    <!-- nav section-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
 
-        <div class="navbar-header">
-            <a class="navbar-brand" href="../index.html">
-                <img src="../images/vulkan_logo.png">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../images/vulkan_logo.png">
+                </a>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- end of navbar-header -->
+            <!-- Collect the nav links for toggling -->
+            <div class="collapse navbar-collapse navbar-right" id="navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="intro.html">Introduction</a></li>
+                    <li><a href="history.html">History</a></li>
+                    <li><a href="latestDevelopment.html">Latest Development</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="commercial.html">Commercial</a></li>
+                </ul>
+            </div>
+            <!-- end of navbar-collapse -->
+        </div>
+        <!-- end of container-fluid -->
+    </nav>
+    <!-- end of nav section -->
+
+    <!-- cover heading with photo-->
+    <div class="cover-head">
+        <h1>MORE ON VULKAN API</h1>
+    </div>
+
+    <!--main contents-->
+    <main class="container-fluid">
+
+        <!-- introduction -->
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h1 class="intro-head">Introduction</h1>
+                <p class="intro-content">
+                    Vulkan is a new low-level API for 3D graphics and GPU-based computations, which was brought to us by Khronos Group. Its low-level abstraction allows a developer to work more closely to the hardware giving wider control on handling hardware, and hence achieving the increased performance of a graphics application if programmed well.
+                </p>
+                <p class="intro-content">
+                    Vulkan is designed to reduce CPU overhead and latency, reaching new level of performance. Simply speaking, it is able to avoid CPU bottlenecks because of its low CPU usage and its ability to distribute work efficiently among multiple CPU cores. Because of this, Vulkan is able to draw out the maximum potential of GPU.
+                </p>
+                <p class="intro-content">
+                    Vukan is often seen as a competitor to Microsoft's new DirectX 12. Although they both have a different approach internally as APIs, they are both targeted towards the sumilar goal&mdash;massive framerate increase in games, drastic decrease in CPU workload (low CPU overhead), and better use of CPU's multiple cores.
+                </p>
+            </div>
+        </div>
+
+        <hr/>
+
+        <!-- Built on AMD's MANTLE  -->
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h1 class="intro-head">Built Upon AMD's Mantle API</h1>
+                <div class="img-container" style="background: black;">
+                    <img class="img-responsive" src="../images/mantle_amd1.jpg" />
+                </div>
+                <p class="intro-content">
+                    AMD's Mantle has been used as a foundation for Vulkan API. Mantle is also a low-level API targeted at 3D graphics espically video games. The goals of AMD for Mantle were to achieve higher framerates, reduced rendering latency, reduced GPU power consumption, and better handling of multi-core CPUs. However, with its idea of proprietary trademark and support for only AMD graphic cards, the game support list was pretty small, and it was bound to fall.
+                </p>
+                <p class="intro-content">
+                    That's where Vulkan API came into the scene. Before Mantle fell completely, it was miraculuously resurrected as a Vulkan. Vulkan has assimilated the 'best and brightest' parts of Mantle while still being a non-proprietary tool supporting many Operating Systems, and both Nvidia and AMD graphic cards.
+                </p>
+            </div>
+        </div>
+
+        <hr/>
+
+        <!-- Successor to OpenGL  -->
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h1 class="intro-head">Successor To OpenGL</h1>
+                <div class="img-container">
+                    <img class="img-responsive" src="../images/opengl-logo.gif" />
+                </div>
+                <p class="intro-content">
+                    OpenGL is also a graphics redering API initially developed by Silicon Graphics Inc. (SGI) and now managed by Khronos Group. OpenGL has been constantly evolving for over two decades and has numerous improvements in that time. However, only doings patchups and improvements on same base will not always be enough. Sometimes, a full rework has to be done to beget something more game changing.
+                </p>
+                <p class="intro-content">
+                    Yes, that's how Vulkan API came into being, and seen as a successor to OpenGL. Also, it was initially referred to as "next generation OpenGL initiative".
+                </p>
+            </div>
+        </div>
+
+        <hr/>
+
+        <!-- Successor to OpenGL  -->
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h1 class="intro-head">Used In 3D Graphics Devices and Applications</h1>
+                <div class="img-container">
+                    <img class="img-responsive" src="../images/vulkan_graphics.jpg" />
+                </div>
+                <div class="container-fluid"></div>
+                <p class="intro-content">Vulkan can be used in various graphics devices&mdash;from tiny wearables and drones to 3D printers to cars to VR kit to anything that has vulkan-compatible GPU inside. </p>
+                <p class="intro-content">
+                    Currently, Vulkan is being used in gaming industry. Games like <em>The Talos Principle</em>, <em>W.N.C: Infantry</em>, and <em>Ashes Of The Singularity</em> are on the Vulkan support line for now. Although the game support list is pretty small right now, many professionals foresee the high potential graphics API being used more extensively across many games over different platforms in near future.
+                </p>
+            </div>
+        </div>
+
+    </main>
+
+
+
+    <footer class="col-md-12">
+
+        <div class="follow col-md-4 col-md-offset-1">
+            <h4>Find Us On</h4>
+            <a target="_blank" href="https://github.com/evolofvulkan/evolofvulkan.github.io">
+                <i class="fa fa-github fa-3x" title="github" alt="twitter"></i>
             </a>
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
         </div>
-        <!-- end of navbar-header -->
-        <!-- Collect the nav links for toggling -->
-        <div class="collapse navbar-collapse navbar-right" id="navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li><a href="intro.html">Introduction</a></li>
-                <li><a href="history.html">History</a></li>
-                <li><a href="latestDevelopment.html">Latest Development</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-                <li><a href="commercial.html">Commercial</a></li>
-            </ul>
+
+
+        <!-- Start of the reference -->
+        <div class="reference col-md-3">
+            <!-- making a button that opens modal while clicked -->
+            <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#reference">Click to see references</button>
+            <!-- called event while button is clicked and start of the modal -->
+            <div class="modal fade" id="reference" role="dialog">
+                <!-- Start of the dialog box -->
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <!-- modal header -->
+                        <div class="modal-header">
+                            <!-- a cross button which collapse the modal while clicked -->
+                            <button type="button" class="cross close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Reference</h4>
+                        </div>
+                        <!-- modal-body -->
+                        <div class="modal-body">
+                            <p>references is here</p>
+                        </div>
+                        <!-- modal footer -->
+                        <div class="modal-footer">
+                            <!-- a button which collapse the modal while clicked -->
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- end of navbar-collapse -->
-    </div>
-    <!-- end of container-fluid -->
-</nav>
-<!-- end of nav section -->
 
-<!-- cover heading with photo-->
-<div class="cover-head">
-    <h1>MORE ON VULKAN API</h1>
-</div>
 
-<!--main contents-->
-<main class="container-fluid">
-
-  <!-- introduction -->
-  <div class="row">
-      <div class="col-md-8 col-md-offset-2">
-        <h1 class="intro-head">Introduction</h1>
-          <p class="intro-content">
-              Vulkan is a new low-level API for 3D graphics and GPU-based computations, which was brought to us by Khronos Group. Its low-level abstraction allows a developer to work more closely to the hardware giving wider control on handling hardware, and hence achieving the increased performance of a graphics application if programmed well.
-          </p>
-          <p class="intro-content">
-              Vulkan is designed to reduce CPU overhead and latency, reaching new level of performance. Simply speaking, it is able to avoid CPU bottlenecks because of its low CPU usage and its ability to distribute work efficiently among multiple CPU cores. Because of this, Vulkan is able to draw out the maximum potential of GPU.
-          </p>
-          <p class="intro-content">
-              Vukan is often seen as a competitor to Microsoft's new DirectX 12. Although they both have a different approach internally as APIs, they are both targeted towards the sumilar goal&mdash;massive framerate increase in games, drastic decrease in CPU workload (low CPU overhead), and better use of CPU's multiple cores.
-          </p>
-      </div>
-    </div>
-
-    <hr/>
-
-    <!-- Built on AMD's MANTLE  -->
-    <div class="row">
-      <div class="col-md-8 col-md-offset-2">
-          <h1 class="intro-head">Built Upon AMD's Mantle API</h1>
-          <div class="img-container" style="background: black;">
-              <img class="img-responsive" src="../images/mantle_amd1.jpg" />
-          </div>
-          <p class="intro-content">
-              AMD's Mantle has been used as a foundation for Vulkan API. Mantle is also a low-level API targeted at 3D graphics espically video games. The goals of AMD for Mantle were to achieve higher framerates, reduced rendering latency, reduced GPU power consumption, and better handling of multi-core CPUs. However, with its idea of proprietary trademark and support for only AMD graphic cards, the game support list was pretty small, and it was bound to fall.
-          </p>
-          <p class="intro-content">
-              That's where Vulkan API came into the scene. Before Mantle fell completely, it was miraculuously resurrected as a Vulkan. Vulkan has assimilated the 'best and brightest' parts of Mantle while still being a non-proprietary tool supporting many Operating Systems, and both Nvidia and AMD graphic cards.
-          </p>
-      </div>
-    </div>
-
-    <hr/>
-
-    <!-- Successor to OpenGL  -->
-    <div class="row">
-      <div class="col-md-8 col-md-offset-2">
-        <h1 class="intro-head">Successor To OpenGL</h1>
-        <div class="img-container">
-            <img class="img-responsive" src="../images/opengl-logo.gif" />
+        <div class="copyright col-md-3">
+            <h5>&copy; evolofvulkan. All Right Reserved.</h5>
         </div>
-        <p class="intro-content">
-            OpenGL is also a graphics redering API initially developed by Silicon Graphics Inc. (SGI) and now managed by Khronos Group. OpenGL has been constantly evolving for over two decades and has numerous improvements in that time. However, only doings patchups and improvements on same base will not always be enough. Sometimes, a full rework has to be done to beget something more game changing.
-        </p>
-        <p class="intro-content">
-            Yes, that's how Vulkan API came into being, and seen as a successor to OpenGL. Also, it was initially referred to as "next generation OpenGL initiative".
-        </p>
-      </div>
-    </div>
-
-    <hr/>
-
-    <!-- Successor to OpenGL  -->
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-          <h1 class="intro-head">Used In 3D Graphics Devices and Applications</h1>
-          <div class="img-container">
-              <img class="img-responsive" src="../images/vulkan_graphics.jpg" />
-          </div>
-          <div class="container-fluid"></div>
-          <p class="intro-content">Vulkan can be used in various graphics devices&mdash;from tiny wearables and drones to 3D printers to cars to VR kit to anything that has vulkan-compatible GPU inside. </p>
-          <p class="intro-content">
-            Currently, Vulkan is being used in gaming industry. Games like <em>The Talos Principle</em>, <em>W.N.C: Infantry</em>, and <em>Ashes Of The Singularity</em> are on the Vulkan support line for now. Although the game support list is pretty small right now, many professionals foresee the high potential graphics API being used more extensively across many games over different platforms in near future.
-          </p>
-        </div>
-    </div>
-
-</main>
-
-
-<footer class="col-md-12">
-
-    <div class="follow col-md-8 col-md-offset-1">
-        <h4>Find Us On</h4>
-        <a target="_blank" href="https://github.com/evolofvulkan/evolofvulkan.github.io">
-          <i class="fa fa-github fa-3x" title="github" alt="twitter"></i>
-        </a>
-    </div>
-
-    <div class="copyright col-md-3">
-        <h5>&copy; evolofvulkan. All Right Reserved.</h5>
-    </div>
-
-</footer>
+    </footer>
 
 </body>
+
 </html>

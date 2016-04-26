@@ -26,12 +26,12 @@ a:active {
 /*centering the navbar logo*/
 
 .navbar-brand {
-  width: 140px;
-  height: 40px;
-  position: absolute;
-  padding: 0;
-  left: calc(50% - 70px);
-  display: block;
+    width: 140px;
+    height: 40px;
+    position: absolute;
+    padding: 0;
+    left: calc(50% - 70px);
+    display: block;
     width: 140px;
     height: 40px;
     position: absolute;
@@ -64,23 +64,16 @@ a:active {
 /*Starting of the footer of the page*/
 
 footer {
-    height: 100px;
     width: 100%;
     background: black;
     box-sizing: border-box;
     position: fixed;
-}
-footer h5 {
-    color: #ddd;
-    text-shadow: 0px 1px 2px #ccc;
+    padding: 20px 0;
 }
 footer .follow h4 {
     font-weight: bold;
     color: #ddd;
     text-shadow: 0px 1px 1px #ccc;
-}
-footer .copyright {
-    margin-top: 60px
 }
 footer .follow {
     margin-top: 10px
@@ -91,4 +84,50 @@ footer .follow a {
 footer .follow a i {
     margin-right: 30px;
     margin-left: 0px
+}
+footer .reference {
+    margin-top: 49px
+}
+footer .reference .btn-lg {
+    background: #A41E22;
+    outline: none;
+    border: 0;
+    color: white;
+    border-radius: 0
+}
+footer .reference .btn-lg:hover {
+    opacity: 0.7;
+}
+footer .reference .modal-header {
+    background: #111;
+    color: white;
+    box-shadow: 0 6px 10px 0 #222
+}
+footer .reference .modal-header .close {
+    color: white;
+    opacity: 1;
+}
+footer .reference .modal-header .close:hover {
+    opacity: 0.6;
+}
+footer .reference .modal-footer {
+    background: #111;
+    color: white;
+    box-shadow: 0 -5px 8px 0 #222
+}
+footer .reference .modal-footer button {
+    background: #A41E22;
+    color: white;
+    border: 0;
+}
+footer .reference .modal-footer button:hover {
+    opacity: 0.8;
+}
+footer .copyright {
+    margin-top: 60px;
+    text-align: right;
+}
+footer .copyright h5 {
+    color: #ddd;
+    text-shadow: 0px 1px 2px #ccc;
 }
